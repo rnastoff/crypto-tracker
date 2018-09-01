@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+	<html lang = "en-US">
+
+		<head>
+			<meta charset = "UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Crypto Tracker</title>
+			<link rel="stylesheet" type="text/css" href="style.css" />
+		</head>
+
+		<body>
+
+			<div class="header">Cryptocurrency Tracker</div>
+			<main>
+				<div class="vignette"></div>
+				<div class="topbar">
+
+					<div class="percentages">
+						<span class="btcpercent"><span class="green"></span></span>
+						<span class="altpercent"><span class="red"></span></span>
+					</div>
+					
+					<form>						
+						<input type="text" name="fname">						
+						<input type="submit" value="SEARCH" name="search">						
+						<input type="submit" value="DISPLAY ALL" name="display">
+					</form>
+
+				</div>
+				<ul class="categories">
+					<li>
+						<div class="rank cat">#</div>
+						<div class="name cat">Name</div>
+						<div class="mcap cat">Market Cap</div>
+						<div class="price cat">Price</div>
+						<div class="volume cat">Volume (24h)</div>
+						<div class="circ cat">Circulation</div>
+						<div class="change cat">Change (24h)</div>
+					</li>
+				</ul>
+
+				<div class="coins">
+
+				</div>
+			</main>
+			<footer></footer>
+		</body>
+		<script src="jquery-3.2.1.min.js"></script>
+		<script src="script.js"></script>
+	</html>
